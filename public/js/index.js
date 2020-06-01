@@ -7,11 +7,7 @@ socket.on('connect',function (){
     //     text: 'Heayayda'     
     // });
 
-    socket.emit('createMessage',{
-        from:'Abhinav',
-        text: 'Yooo'
-    })
-
+   
 
 });
 
